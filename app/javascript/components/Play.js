@@ -17,8 +17,9 @@ export class Play extends React.Component {
           <input type="text"></input><br/>
           <label>Thing</label>
           <input type="text"></input><br/>
-          <button type='submit'>Submit</button>
+          {/* <button type='submit'>Submit</button> */}
         </form>
+        <h5>Click the Result button below to get the result</h5>
         <button onClick = {()=>getResult()}>Result</button>
         {result.result.name === ''? <div></div>:
         <div>
