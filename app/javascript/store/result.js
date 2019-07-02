@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-//type
+//Types
 
 const GET_RESULT = 'GET_RESULT'
 
@@ -20,21 +20,14 @@ export const getLastResultThunk = ()=>async dispatch =>{
 }
 
 //Initial state
-const initial = {
-  result:{
-    name:'',
-    place:'',
-    animal:'',
-    thing:''
-  }
-}
+const initial = []
 
 //Reducer
 
 export default function(state=initial,action){
   switch (action.type){
     case GET_RESULT:
-      return action.data
+      return action.data.result
     default:
       return state
   }

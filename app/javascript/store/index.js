@@ -4,6 +4,7 @@ import thunkMiddleware from 'redux-thunk'
 import {composeWithDevTools} from 'redux-devtools-extension'
 import result from './result'
 
+//combine multiple reducer
 const reducer = combineReducers({result})
 
 const middleware = composeWithDevTools(
