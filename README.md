@@ -12,7 +12,7 @@
 * To run the application, clone the repo
     * Install the dependencies using
       ```docker-compose run web```
-    * TO build the image
+    * To build the image
       ``` docker-compose build```
     * To create database
       ```docker-compose run web bundle exec rake db:create```
@@ -20,6 +20,8 @@
     * To run the application
       ```docker-compose up```
     * To stop the application
+      ```docker-compose stop```
+    * To bring down the application
       ```docker-compose down```
 
 * Visit localhost:3000/v1/result
