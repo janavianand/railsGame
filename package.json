@@ -2,7 +2,7 @@
   "name": "railsGame",
   "private": true,
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "install": "^0.12.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
